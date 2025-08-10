@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0b0c10;
+  color: #e6e8ef;
+}
+.wrap {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  font-size: 2em;
+}
+nav a {
+  color: #9be7ff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.card {
+  background-color: #11131a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+a { color: #9be7ff; }
+.small {
+  font-size: 0.8em;
+  color: #9aa0ab;
+  text-align: center;
+}
